@@ -46,7 +46,18 @@ Windows Vistaのデバイスドライバに、従来からのWDMに加えて新�
 
 .. image:: images/sample.png
 
-リンクとかはこんな感じで
+数式はこんな感じで。
+
+.. math::
+
+      \csc x & = & \frac{1}{\sin x} \\
+      \sec x & = & \frac{1}{\cos x} \\
+      \cot x & = & \frac{1}{\tan x}
+
+| もしくは :math:`y = x^{2 \pi}`. みたいに文章内に入れることも出来ます。数式はLaTexで書くのですが、書き方は以下とかが参考になります。
+| http://www.latex-cmd.com/
+
+リンクとかはこんな感じで列挙も出来ます。
 
 * http://sphinx-doc.org/
 * `オープンな設計図でお馴染みのGitHub <https://github.com>`_
