@@ -130,6 +130,7 @@
 * 以下の処理は例で内容の整合性は無いのでご注意をw
 * 改行を使う場合はlabelを使い、￥ｎを入れます。
 * ellipseとかは長いと省略されます
+* 横幅が狭い時は node_width でデフォルトの幅を変更できます。何もしないと128らしいです。これは192です。
 
 .. blockdiag::
 
@@ -137,6 +138,7 @@
 
         # 設定
         default_fontsize = 14
+        node_width = 192
         orientation = portrait
 
         # 開始と終了
