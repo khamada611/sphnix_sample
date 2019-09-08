@@ -193,7 +193,30 @@
 * http://blockdiag.com/ja/blockdiag/examples.html
 
 
+パケットフォーマット
+=======================================
+
+データ定義を表現する際にこんな感じでやれます。
+
+.. packetdiag::
+
+   packetdiag {
+        default_fontsize = 16
+        colwidth = 32
+        node_height = 72
+
+        0-31: First ULONG
+        32: R
+        33-34: 001
+        35-63: Operation Code
+        64-95: 16
+        96-127: Data（16 bytes）[colheight = 4]
+    }
 
 
+* RはReservedです
 
 
+後は以下とか参照です。
+
+    http://blockdiag.com/ja/nwdiag/packetdiag-examples.html

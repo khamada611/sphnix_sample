@@ -39,7 +39,11 @@ release = u'0.0.1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.mathjax','sphinxcontrib.seqdiag','sphinxcontrib.blockdiag'
+    'sphinx.ext.mathjax',
+    'sphinxcontrib.seqdiag',
+    'sphinxcontrib.blockdiag',
+    'sphinxcontrib.nwdiag',
+    'sphinxcontrib.packetdiag'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -180,6 +184,8 @@ epub_exclude_files = ['search.html']
 # This is Windows'case.
 seqdiag_fontpath = 'c:/windows/fonts/meiryo.ttc'
 blockdiag_fontpath = 'c:/windows/fonts/meiryo.ttc'
+nwdiag_fontpath = 'c:/windows/fonts/meiryo.ttc'
+packetdiag_fontpath = 'c:/windows/fonts/meiryo.ttc'
 
 # sphinx_rtd_themeを動かすために入れました。
 import sphinx_rtd_theme
