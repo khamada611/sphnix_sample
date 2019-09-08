@@ -34,7 +34,8 @@ Sphinxで浜田が主に使いそうな部分をサンプルでまとめたも�
 > pip install sphinx
 > pip install sphinxcontrib-seqdiag
 > pip install sphinxcontrib-blockdiag
-> pip install sphinx_rtd_themetest
+> pip install sphinxcontrib-nwdiag
+> pip install sphinx_rtd_theme
 ```
 ### 本サンプルのビルドなど
 
